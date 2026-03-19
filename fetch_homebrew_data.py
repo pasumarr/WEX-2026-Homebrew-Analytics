@@ -2,7 +2,17 @@
 WEX 2026 - Homebrew Analytics Project
 Author: Sai Pasumarthi
 Date: March 18, 2026
-Description: Fetches top Homebrew package installation data from the Homebrew API
+
+Description:
+Fetches top Homebrew package installation data from the Homebrew Analytics API.
+Displays the top 10 most installed packages from the last 30 days.
+
+Learning Focus:
+- REST API integration and HTTP requests
+- JSON data parsing and manipulation
+- Error handling and status code checking
+- Python requests library usage
+- Professional code documentation standards
 """
 
 import requests
