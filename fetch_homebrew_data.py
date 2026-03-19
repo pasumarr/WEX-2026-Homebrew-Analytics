@@ -18,7 +18,7 @@ print(f"Status Code: {response.status_code}")
 print(f"Content Type: {response.headers.get('content-type')}")
 
 if response.status_code == 200:
-    data = response.json()
+    data = response.json() # parse and read the json file
     
     # Show the top 10 packages in Homebrew
     print("\n Top 10 Most Installed Homebrew Packages (Last 30 Days):\n")
@@ -37,7 +37,7 @@ if response.status_code == 200:
         print(f"Keys available: {list(data.keys())}")
         
     print("="*70)
-    print("Data fetched successfully!")
+    print("Data fetched successfully!") # so we understand that the code ran and we have the data organized
         
 else:
     print(f"Error: Status {response.status_code}")
