@@ -196,9 +196,9 @@ MIT License - feel free to use this for your own learning.
 
 ## Contact
 
-[Your Name]  
-[Your Email]  
-[LinkedIn Profile]
+Sathyasai Pasumarthi  
+sathyasaipasumarthi@gmail.com  
+www.linkedin.com/in/sai-pasumarthi-2350632a0
 
 ---
 
